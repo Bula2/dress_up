@@ -32,8 +32,8 @@ const Game: React.FC<IGame> = (props) => {
       <div className={styles.item_img}>
         <Image
           className={styles.item_img}
-          width={200}
-          height={250}
+          width={250}
+          height={280}
           src={props.src}
         />
       </div>

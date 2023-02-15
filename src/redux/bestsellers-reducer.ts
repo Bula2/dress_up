@@ -9,10 +9,10 @@ export interface BestSellersState {
 
 const initialState: BestSellersState = {
   data: [
-    {id: 1, src: "/img/cyberpank.png", title: "Cyberpunk 2077"},
-    {id: 2, src: "/img/fifa22.png", title: "Fifa 22"},
-    {id: 3, src: "/img/godOfWar.png", title: "God Of War"},
-    {id: 4, src: "/img/spiderman.png", title: "Spider Man"}
+    {id: 1, src: "/img/6.jpg", title: "Nike Blazer Mid 77"},
+    {id: 2, src: "/img/5.jpg", title: "Jordan Jumpman Polo"},
+    {id: 3, src: "/img/4.jpg", title: "Jordan Jumpman Logo"},
+    {id: 4, src: "/img/3.jpg", title: "Jordan x union"}
   ]
 }
 

@@ -22,7 +22,7 @@ const Footer = () => {
           <ul className={styles.list}>
             <li className={styles.item}><Link href={"/"}>Главная</Link></li>
             <li className={styles.item}><Link href={"/shop"}>Магазин</Link></li>
-            <li className={styles.item}><Link href={"/instruction"}>Инструкция</Link></li>
+            {/*<li className={styles.item}><Link href={"/instruction"}>Инструкция</Link></li>*/}
             <li className={styles.item}><Link href={"/basket"}>Корзина</Link></li>
             <li className={styles.item}><Link href={"/auth"}>Авторизация</Link></li>
             {isAdmin && <li className={styles.item}><Link href={"/admin"}>Администрирование</Link></li>}

@@ -24,9 +24,9 @@ const Header = () => {
             <li className={styles.menu__items_item}>
               <Link className={styles.menu__items_item_link} href={"/shop"}>Магазин</Link>
             </li>
-            <li className={styles.menu__items_item}>
-              <Link className={styles.menu__items_item_link} href={"/instruction"}>Инструкция</Link>
-            </li>
+            {/*<li className={styles.menu__items_item}>*/}
+            {/*  <Link className={styles.menu__items_item_link} href={"/instruction"}>Инструкция</Link>*/}
+            {/*</li>*/}
             <li className={styles.menu__items_item}>
               <Link className={styles.menu__items_item_link} href={"/basket"}>Корзина</Link>
             </li>

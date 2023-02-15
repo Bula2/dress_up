@@ -11,24 +11,10 @@ const AdminPage = () => {
   const dataSource = [
     {
       key: 1,
-      date: "22.10",
+      date: "12.02.2023",
       email: "123@123.com",
-      order: ["Fifa 23 ", "God of War"],
-      price: 2200
-    },
-    {
-      key: 2,
-      date: "22.10",
-      email: "ff@123.com",
-      order: ["God of War"],
-      price: 1100
-    },
-    {
-      key: 3,
-      date: "22.10",
-      email: "fff@123.com",
-      order: ["Fifa 23 "],
-      price: 1100
+      order: "Nike AirForce",
+      price: 9800
     },
   ];
 

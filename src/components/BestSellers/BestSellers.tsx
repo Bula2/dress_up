@@ -15,9 +15,9 @@ const BestSellers: React.FC = () => {
         <div className={styles.text}>
           <h3 className={styles.text_title}>BEST SELLERS</h3>
           <p className={styles.text_paragraph}>
-            Топ игры по продажам за последнюю неделю.
+            Самые популярные продажи за последнюю неделю.
             <br/>
-            Не упусти и ты возможность сыграть в них
+            Не упусти и ты возможность получить их.
           </p>
         </div>
         {bestSellersData.map((it: any, key: number) => {
@@ -26,7 +26,7 @@ const BestSellers: React.FC = () => {
               <Image
                 className={styles.img_img}
                 width={200}
-                height={250}
+                height={220}
                 src={it.src}
               />
               <div className={styles.img_label}>{it.title}</div>
