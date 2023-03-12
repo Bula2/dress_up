@@ -1,3 +1,6 @@
+Интернет магазин по продаже одежды: NextJs + Redux /
+Ссылка на внимательный просмотр: [https://dress-up-buladev.netlify.app/](https://dress-up-buladev.netlify.app/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
