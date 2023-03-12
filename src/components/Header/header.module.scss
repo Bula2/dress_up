@@ -1,5 +1,8 @@
 @import "../../styles/variables";
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+  font-family: "Press Start 2P";
+  src: url(../../fonts/P2/PressStart2P-Regular.ttf);
+}
 
 .header {
   height: 130px;
