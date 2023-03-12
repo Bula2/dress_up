@@ -11,7 +11,7 @@ const UnderHeader = () => {
     <div className={styles.wrapper}>
       <div className={styles.content}>
         <h1 className={styles.title}>DressUp</h1>
-        <p className={cx(styles.paragraph, styles.paragraph__first)}>Удобная и качественная одежда личного производста</p>
+        <p className={cx(styles.paragraph, styles.paragraph__first)}>Удобная и качественная одежда личного производства</p>
         <p className={cx(styles.paragraph, styles.paragraph__second)}>Наслаждайтесь комфортом не смотря на обстоятельства</p>
         <Button onCLick={() => router.push("/shop")} className={styles.button} text={"В магазин"}/>
       </div>

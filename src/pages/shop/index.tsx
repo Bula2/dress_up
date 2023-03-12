@@ -48,7 +48,7 @@ const ShopPage = () => {
           </div>
           <div className={styles.link_to_basket}>
             <Link className={styles.link_to_basket__link} href={"/basket"}>
-            Фильтр
+            Корзина
             </Link>
           </div>
         </div>

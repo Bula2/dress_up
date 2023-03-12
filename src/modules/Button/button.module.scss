@@ -1,4 +1,4 @@
-@import "../../styles/variables";
+  @import "../../styles/variables";
 
 .button{
   width: 180px;
@@ -7,12 +7,14 @@
   font-size: 1.1em;
   font-weight: normal;
   padding: 5px;
-  border-radius: 1px;
+  border: 2px solid black;
+  border-radius: 3px;
   color: black;
-  transition: background .5s, color .5s;
+  transition: background .5s, color .5s, border .5s;
   cursor: pointer;
   &:hover{
     background: white;
     color: #858585;
+    border: 2px solid $links-color;
   }
 }

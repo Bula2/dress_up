@@ -52,7 +52,7 @@ const Game: React.FC<IGame> = (props) => {
           </div>
         }
       </div>
-      <div className={cx(alert && styles.hide, styles.alert)}>Игра добавлена в корзину</div>
+      <div className={cx(alert && styles.hide, styles.alert)}>Товар добавлен в корзину</div>
     </div>
   );
 };
